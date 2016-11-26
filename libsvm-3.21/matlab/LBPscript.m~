@@ -1,0 +1,46 @@
+
+load data_batch_1.mat;
+mapping=getmapping(8,'u2');
+for i=1:10000
+    image1=data(i,:);
+    I=reshape(image1,32,32,3);
+    W(i,:)=lbp(I,1,8,mapping,'h');
+end
+W_1=W;
+
+load data_batch_2.mat;
+mapping=getmapping(8,'u2');
+for i=1:10000
+    image1=data(i,:);
+    I=reshape(image1,32,32,3);
+    W(i,:)=lbp(I,1,8,mapping,'h');
+end
+W_1=W;
+
+load data_batch_3.mat;
+mapping=getmapping(8,'u2');
+for i=1:10000
+    image1=data(i,:);
+    I=reshape(image1,32,32,3);
+    W(i,:)=lbp(I,1,8,mapping,'h');
+end
+W_1=W;
+
+load data_batch_4.mat;
+mapping=getmapping(8,'u2');
+for i=1:10000
+    image1=data(i,:);
+    I=reshape(image1,32,32,3);
+    W(i,:)=lbp(I,1,8,mapping,'h');
+end
+W_1=W;
+
+load data_batch_5.mat;
+mapping=getmapping(8,'u2');
+for i=1:10000
+    image1=data(i,:);
+    I=reshape(image1,32,32,3);
+    W(i,:)=lbp(I,1,8,mapping,'h');
+end
+W_1=W;
+    

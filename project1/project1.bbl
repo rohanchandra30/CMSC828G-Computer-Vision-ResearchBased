@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{burges1998tutorial}
+Christopher~JC Burges.
+\newblock A tutorial on support vector machines for pattern recognition.
+\newblock {\em Data mining and knowledge discovery}, 2(2):121--167, 1998.
+
+\bibitem{krizhevsky2009learning}
+Alex Krizhevsky.
+\newblock Learning multiple layers of features from tiny images.
+\newblock 2009.
+
+\bibitem{ojala2002multiresolution}
+Timo Ojala, Matti Pietikainen, and Topi Maenpaa.
+\newblock Multiresolution gray-scale and rotation invariant texture
+  classification with local binary patterns.
+\newblock {\em IEEE Transactions on pattern analysis and machine intelligence},
+  24(7):971--987, 2002.
+
+\end{thebibliography}
